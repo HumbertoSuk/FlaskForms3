@@ -1,0 +1,55 @@
+/* Estilos para el formulario de inicio de sesión */
+.gradient-custom-2 {
+    /* Fallback para navegadores antiguos */
+    background: #fc2c77; /* Color de fondo principal (rosado) */
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #fc2c77, #7303c0, #06befe, #23d5ab);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #fc2c77, #7303c0, #06befe, #23d5ab);
+}
+
+/* Color de texto y estilos de fuente */
+.text-black {
+    color: #fff; /* Cambiamos el color del texto a blanco */
+    font-family: 'Arial', sans-serif; /* Cambiamos la fuente de texto */
+}
+
+/* Estilizar los campos de entrada y etiquetas */
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2); /* Cambiamos el fondo de los campos de entrada */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* Cambiamos el color del texto en los campos de entrada */
+}
+
+.form-label {
+    color: #fff; /* Cambiamos el color del texto de las etiquetas */
+}
+
+/* Estilo del botón de inicio de sesión */
+.btn-primary {
+    background-color: #ff6600; /* Cambiamos el color del botón a un naranja brillante */
+    border: none;
+}
+
+/* Cambiar el color de texto en el botón */
+.btn-primary, .btn-primary:hover {
+    color: #fff; /* Texto blanco */
+}
+
+/* Agregar un sombreado al botón en el hover */
+.btn-primary:hover {
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+}
+
+/* Estilos adicionales para el enlace "Forgot password?" */
+.text-muted {
+    color: #ff6600; /* Cambiamos el color del enlace */
+    text-decoration: none; /* Quitamos el subrayado */
+}
+
+.text-muted:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
